@@ -10,13 +10,22 @@ A Python desktop application that processes raw Excel-based attendance punch dat
 
 ### 🖥️ Desktop App & Session Setup
 
-| Main App | Session Setup | Multi-Session Config |
-|----------|--------------|----------------------|
-| ![Main App](screenshots/1.PNG) | ![Session Setup](screenshots/2.PNG) | ![Multi Session](screenshots/3.PNG) |
+<p align="center">
+  <img src="1.PNG" width="30%" alt="Main App"/>
+  &nbsp;&nbsp;
+  <img src="2.PNG" width="30%" alt="Session Setup"/>
+  &nbsp;&nbsp;
+  <img src="3.PNG" width="30%" alt="Multi-Session Config"/>
+</p>
+<p align="center">
+  <em>Main App &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Session Setup &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Multi-Session Config</em>
+</p>
 
 ### 🌐 Live Dashboard
 
-![Attendance Dashboard](screenshots/site.PNG)
+<p align="center">
+  <img src="site.PNG" width="100%" alt="Attendance Dashboard"/>
+</p>
 
 > Real-time dashboard with KPI cards, daily trend chart, session comparison, department analytics, status donut chart, and more — all filterable and interactive.
 
@@ -59,15 +68,15 @@ A Python desktop application that processes raw Excel-based attendance punch dat
 ## 🗂️ Project Structure
 
 ```
-attendance-project/
+Attendance_Managemt_Dashboard/
 ├── attendance_app.py       # Main GUI + processing engine
 ├── dashboard.py            # Dash web dashboard
 ├── attendance_logo.png     # (optional) logo shown in the GUI
-├── screenshots/            # Screenshots for README
-│   ├── 1.PNG
-│   ├── 2.PNG
-│   ├── 3.PNG
-│   └── site.PNG
+├── 1.PNG                   # Screenshot - Main App
+├── 2.PNG                   # Screenshot - Session Setup
+├── 3.PNG                   # Screenshot - Multi-Session Config
+├── site.PNG                # Screenshot - Live Dashboard
+├── README.md
 ├── your_raw_data.xlsx      # Your input file (not committed)
 └── attendance_cleaned.xlsx # Auto-generated output (not committed)
 ```
@@ -87,8 +96,8 @@ attendance-project/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/attendance-project.git
-cd attendance-project
+git clone https://github.com/nimbalkarmadhuri/Attendance_Managemt_Dashboard.git
+cd Attendance_Managemt_Dashboard
 
 # 2. Install all dependencies
 pip install pandas openpyxl pillow dash dash-bootstrap-components plotly psutil
@@ -180,8 +189,8 @@ The application expects a raw Excel file where:
 ## 👤 Author
 
 **Madhuri Nimbalkar**
-- GitHub: https://github.com/nimbalkarmadhuri/
-- Email: nimbalkarmadhuri3@gmail.com
+- GitHub: [@nimbalkarmadhuri](https://github.com/nimbalkarmadhuri)
+- Project: [Attendance_Managemt_Dashboard](https://github.com/nimbalkarmadhuri/Attendance_Managemt_Dashboard)
 
 ---
 
